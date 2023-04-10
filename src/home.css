@@ -1,0 +1,424 @@
+
+* {
+    margin: 0;
+}
+/* .navbar {
+    height:8%;
+    background-color: black;
+    padding-top:8px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+   
+} */
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.title {
+    color: azure;
+    padding-left: 10px;
+    padding-right: 25%;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.menu {
+    padding: 19px;
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    
+    
+}
+.demant {
+    float:right;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border-radius: 7%;
+    
+}
+#login{
+
+    padding: 8px 20px;
+    float:right;
+    margin-right: 20px;
+    border-radius: 7%;
+    color:beige;
+    background-color: rgb(52, 122, 189);
+    width:5%;    
+}
+/* .current_status {
+    height:25px;
+    margin-top: 4.6%;
+    background-color: rgb(179, 189, 221);
+    
+    color: beige;
+    position:fixed;
+    z-index: 9;
+
+} */
+#home1 {
+    padding-top: 7%;
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/home1.jpg");
+    background-size: 100% 100%;
+    
+  }
+
+.autochange::before {
+    content: "Stocks";
+    animation: animate infinite 6s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "FDs";
+    }
+
+    30% {
+        content: "IPO";
+    }
+
+    50% {
+        content: "US Stocks";
+    }
+    75% {
+        content: "Mutual Funds"
+    }
+    100%{
+        content: "Crypto"
+    }
+
+}
+
+.home1_1 {
+   
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color:#ffffff4d;
+    backdrop-filter: blur(8px);
+    width: 60%;
+    height: 45%;
+    border:  2px rgb(245, 237, 237);
+}
+.home1_1 h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 4vh;
+    font-size: 4vw;
+    margin-left:5vw;
+    
+}
+.home1_1 p {
+    color: rgb(11, 16, 21);
+    margin-left:5vw;
+    margin-top: 2vh;
+    font-size: 2vw;
+}
+.GetStarted{
+    padding:2vh 4vh;
+    border-radius: 7%;
+    margin-top: 2vh;
+    margin-left:5vw;
+    width:20%;
+    font-size: 1.3vw;
+}
+.home2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(12, 45, 83);
+    
+}
+.home2_1{
+    /* padding-left: 30%; */
+    padding-top: 2vh;
+    text-align: center;
+    color: aliceblue;
+}
+.home2_1 h1 {
+  font-size: 3vw;
+}
+
+.home2_1 pre {
+    font-size: 1.5vw;
+}
+
+
+/* .home2_box {
+    width: 90%;
+    height: 380px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 3%;
+   
+
+}
+
+.home2_box h1 {
+  font-size:50px;
+  padding-top:5%;
+  padding-left: 6%;
+}
+.home2_box p{
+  line-height:2;
+  font-size:25px;
+  padding-top:3%;
+  padding-left: 6%;
+
+}
+
+ #dot1 {
+  margin-left: 5%;
+}
+
+.home2_box img {
+  float: right;
+ 
+  margin-top: -25%;
+  height: 200px;
+  width: 300px;
+  margin-right: 6%;
+
+ }
+.home2_slides {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  Hide the images by default
+  .home2_box {
+    display: none;
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+ 
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+   } */
+  
+  /* On hover, add a black background color with a little bit see-through */
+  /*.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  .fade {
+    
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+ 
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  */
+  .home3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #327eb1;
+    
+} 
+.section3 {
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  margin: auto;
+  
+}
+
+.section3 h1{
+  text-align:center;
+  padding-top:5vh;
+  font-size:3vw;
+  margin: auto;
+}
+.section3 img {
+  display: inline;
+  width: 30%;
+  height:50%;
+  margin-left: 2.5%;
+  
+  
+}
+
+.section3 p {
+  display: inline-block;
+   margin-left: 2%;
+  margin-top: 1%;
+  text-align: center;
+  font-size: 1.2vw;
+  width: 30%;
+}
+.section3 p::first-line{
+  font-size: 40px;
+  
+}
+
+
+.section3 p:first-of-type {
+  margin-left: 2%;
+}
+
+
+#loginwindow {
+  /* display: none;  */
+  /* position: fixed;  */
+  z-index: 2; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.loginbox {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.closelogin {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closelogin:hover,
+.closelogin:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login_1 {
+  width: 50%;
+  
+  margin-left: 45%;
+}
+
+.login_1 input[type="email"],input[type="password"]
+{
+  width:50%;
+  padding:7px;
+
+}
+
+#login_1_1 { 
+
+  padding:5px;
+  width:20%;
+  
+}
+#signup {
+
+  padding:5px;
+  width:20%;
+  
+}
+
+#ContinueGoogleBtn {
+  height: 50px;
+  width:300px;
+  border-radius: 6px;
+  border: 1px solid ;
+  box-shadow: 0 2px 9px ;
+  cursor: pointer;
+  position: relative;
+}
+
+#signupwindow {
+  /* display: none;  */
+  /* position: fixed;  */
+  z-index: 2; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+.signupbox {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.closesignup {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closesignup:hover,
+.closesignup:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signup_1 {
+  width: 50%;
+  
+  margin-left: 45%;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
