@@ -22,8 +22,8 @@ function App() {
             <h1>One platform. Multiple investment opportunities.</h1>
             
             <p>
-            </p><pre>Long term investors, pro traders or part-time traders can{"\n"} choose across various asset classes and create your{"\n"}{"   "}customised portfolio. All from one platform.</pre>
-            <p />
+            <pre  style={{fontcolor: "white"}}>Long term investors, pro traders or part-time traders can{"\n"} choose across various asset classes and create your{"\n"}{"   "}customised portfolio. All from one platform.</pre>
+            </p>
           </div>
           <br />
           <SimpleSlider />

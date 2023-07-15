@@ -5,23 +5,23 @@ import { useSelector } from 'react-redux'
 const Navbar = () => {
     // const state = useSelector(state => state.handleCart)
     return (
-        <nav className="navbar navbar-expand-lg navbar-light py-1 sticky-top" style={{backgroundColor: "#000000"}}>
+        <nav className="navbar navbar-expand-lg navbar-light py-1 sticky-top" style={{backgroundColor: "black"}}>
             <div className="container">
-                <NavLink className="navbar-brand fw-bold fs-3 px-2 text-white" to="/"> <i className="fa fa-shopping-cart cart_heading text-white"></i> SKYSHOT</NavLink>
+                <NavLink className="navbar-brand fw-bold fs-3 px-2 text-white" to="/"><img  style={{ width: 200, height: 50 }} src={require("./images/skyshot.png")  } /></NavLink>
                 <button className="navbar-toggler mx-2 btn-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon bg-light"></span>
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto my-2 text-center">
                         <li className="nav-item">
-                            <NavLink className="nav-link text-white" to="/">Stocks </NavLink>
+                            <NavLink className="nav-link text-white" to="/Stocks">Stocks </NavLink>
                         </li>
+                        {/* <li className="nav-item">
+                            <NavLink className="nav-link text-white" to="/MutualFund">Mutual Funds </NavLink>
+                        </li> */}
                         <li className="nav-item">
-                            <NavLink className="nav-link text-white" to="/">Mutual Funds </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link text-white" to="/"> IPO</NavLink>
+                            <NavLink className="nav-link text-white" to="/IPO"> IPO</NavLink>
                         </li>
                         
                         {/* <li className="nav-item dropdown">
@@ -40,7 +40,7 @@ const Navbar = () => {
                         </li> */}
 
                         <li className="nav-item">
-                            <NavLink className="nav-link text-white" to="/about">News</NavLink>
+                            <NavLink className="nav-link text-white" to="/News">News</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link text-white" to="/contact">About Us</NavLink>
@@ -48,7 +48,7 @@ const Navbar = () => {
                     </ul>
                     <div className="buttons text-center">
                         <NavLink to="/login" className="btn m-2 text-white"><i className="fa fa-sign-in-alt mr-1 "></i> Login</NavLink>
-                        <NavLink to="/register" className="btn m-2 text-white"><i className="fa fa-user-plus mr-1"></i> Open Demat Account </NavLink>
+                        <NavLink to="/signup" className="btn m-2 text-white"><i className="fa fa-user-plus mr-1"></i> Open Demat Account </NavLink>
                         {/* <NavLink to="/cart" className="btn  m-2 text-white"><i className="fa fa-cart-shopping mr-1"></i> Cart ({state.length}) </NavLink> */}
                     </div>
                 </div>
